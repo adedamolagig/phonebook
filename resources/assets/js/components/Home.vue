@@ -4,7 +4,7 @@
       <p class="panel-heading">
         VueJs PhoneBook
          <button class="button is-primary is-outlined" @click="openAdd">
-          Add Contact
+          Add Book
         </button>
         <span class="is-pulled-right" v-if="loading">
           <i class="fa fa-refresh fa-spin fa-2x fa-fw"></i>

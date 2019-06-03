@@ -42234,7 +42234,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("a", { staticClass: "navbar-item", attrs: { href: "#" } }, [
       _c("span", { staticClass: "fa fa-book fa-3x" }),
-      _vm._v("PhoneBook App\n    ")
+      _vm._v("Library App\n    ")
     ])
   },
   function() {
@@ -42693,7 +42693,7 @@ var render = function() {
     _vm._v(" "),
     _c("div", { staticClass: "modal-card" }, [
       _c("header", { staticClass: "modal-card-head" }, [
-        _c("p", { staticClass: "modal-card-title" }, [_vm._v("Add Contact")]),
+        _c("p", { staticClass: "modal-card-title" }, [_vm._v("Add BOOK")]),
         _vm._v(" "),
         _c("button", {
           staticClass: "delete",
@@ -43320,7 +43320,7 @@ var render = function() {
                 staticClass: "button is-primary is-outlined",
                 on: { click: _vm.openAdd }
               },
-              [_vm._v("\n        Add Contact\n      ")]
+              [_vm._v("\n        Add Book\n      ")]
             ),
             _vm._v(" "),
             _vm.loading
